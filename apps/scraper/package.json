@@ -1,9 +1,12 @@
 {
-  "name": "scraper",
+  "name": "@mentor/scraper",
   "author": "eze-sk",
   "type": "module",
   "private": true,
   "module": "index.ts",
+  "scripts": {
+    "start": "bun src/index.ts"
+  },
   "dependencies": {
     "@libsql/client": "0.18.0",
     "puppeteer": "25.16.0"
