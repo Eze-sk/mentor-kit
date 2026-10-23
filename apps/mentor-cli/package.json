@@ -1,0 +1,9 @@
+{
+  "name": "@mentor/cli",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
