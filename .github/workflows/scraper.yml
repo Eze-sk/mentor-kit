@@ -28,6 +28,9 @@ jobs:
             libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2 libgbm1 \
             libasound2t64 libpango-1.0-0 libcairo2
 
+      - name: Install Puppeteer Browser
+        run: bunx puppeteer browsers install chrome
+
       - name: Run TypeScript Scraper
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
