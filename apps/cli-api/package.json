@@ -1,0 +1,17 @@
+{
+  "name": "@mentor/cli-api",
+  "author": "eze-sk",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@tursodatabase/serverless": "1.4.1",
+    "hono": "4.13.13"
+  },
+  "devDependencies": {
+    "wrangler": "4.110.0"
+  }
+}
