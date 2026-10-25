@@ -2,5 +2,15 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "cli-api",
   "main": "src/index.ts",
-  "compatibility_date": "2026-10-23",
+  "compatibility_date": "2026-07-15",
+  "ratelimits": [
+    {
+      "name": "RATE_LIMITER",
+      "namespace_id": "151",
+      "simple": {
+        "limit": 15,
+        "period": 60,
+      },
+    },
+  ],
 }
